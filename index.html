@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131b">
+  <meta name="description" content="MINDSET X — ابنِ عقلية قوية، ركّز على أهدافك، وأنجز كل يوم.">
+  <title>MINDSET X | ابنِ إمبراطوريتك</title>
+  <style>
+    :root{--bg:#10131b;--panel:#191f2b;--panel2:#202938;--gold:#dfb65e;--muted:#aab2c1;--line:#30394a;--white:#f5f5f2;--green:#78c69a}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#252638 0,transparent 38%),var(--bg);color:var(--white);font-family:Tahoma,Arial,sans-serif;line-height:1.7}
+    button,input,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(1120px,92%);margin:auto}.top{display:flex;align-items:center;justify-content:space-between;padding:22px 0;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:12px}.logo{width:46px;height:46px;border-radius:14px;background:var(--gold);color:#171717;display:grid;place-items:center;font-size:24px;font-weight:bold}.brand strong{display:block;color:var(--gold);font-size:21px;letter-spacing:2px}.brand small{color:var(--muted);font-size:10px;letter-spacing:2px}.nav{display:flex;gap:18px}.nav a{color:var(--muted);text-decoration:none;font-size:13px}.nav a:hover{color:var(--gold)}
+    .hero{padding:58px 0 34px;display:grid;grid-template-columns:1.2fr .8fr;gap:30px;align-items:center}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:2px;font-weight:bold}.hero h1{font-size:clamp(34px,5vw,58px);line-height:1.25;margin:12px 0}.hero h1 span{color:var(--gold)}.hero p{color:var(--muted);max-width:600px}.hero-card{background:linear-gradient(145deg,#252b3a,#171c27);border:1px solid #3a3c46;border-radius:24px;padding:28px;box-shadow:0 22px 70px #0005}.hero-card .symbol{font-size:54px;color:var(--gold)}.hero-card blockquote{margin:8px 0;font-size:23px;font-weight:bold}.hero-card p{font-size:13px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0 34px}.stat,.panel,.feature{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px}.stat b{display:block;color:var(--gold);font-size:25px}.stat span,.muted{color:var(--muted);font-size:12px}
+    section{margin:32px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-bottom:15px}.section-head h2{margin:0;font-size:24px}.section-head p{margin:0;color:var(--muted);font-size:12px}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.feature{display:flex;gap:14px;align-items:center}.feature .ico{font-size:26px}.feature b{display:block}.feature small{color:var(--muted)}
+    .tasks{display:grid;gap:10px}.task{display:flex;align-items:center;gap:12px;background:var(--panel2);padding:13px 15px;border-radius:13px;border:1px solid transparent}.task.done{border-color:#3f775b;opacity:.72}.task input{accent-color:var(--gold);width:18px;height:18px}.task label{flex:1}.task.done label{text-decoration:line-through;color:var(--muted)}.progress{height:9px;background:#343c4b;border-radius:30px;overflow:hidden;margin:12px 0}.progress span{height:100%;width:0;background:var(--gold);display:block;transition:width .2s}
+    .goal-row{display:flex;gap:9px;margin-top:12px}.field{background:#111722;border:1px solid var(--line);border-radius:12px;color:var(--white);padding:12px;width:100%;outline:none}.field:focus{border-color:var(--gold)}.btn{border:0;border-radius:12px;background:var(--gold);color:#171717;padding:11px 17px;font-weight:bold;white-space:nowrap}.btn:disabled{opacity:.45;cursor:not-allowed}.btn.secondary{background:#30394a;color:var(--white)}.goal-list{padding:0;list-style:none}.goal-list li{display:flex;justify-content:space-between;gap:10px;padding:10px;border-bottom:1px solid var(--line)}.delete{border:0;background:none;color:#e18b8b}
+    .chat{display:flex;flex-direction:column;gap:12px}.chat-log{min-height:150px;max-height:360px;overflow:auto;display:flex;flex-direction:column;gap:10px}.bubble{padding:12px 15px;border-radius:14px;max-width:90%;white-space:pre-wrap}.bot{background:#283244;align-self:flex-start}.user{background:#574a2d;align-self:flex-end}.chat-form{display:flex;gap:9px}.notice{font-size:11px;color:var(--muted)}.footer{border-top:1px solid var(--line);padding:25px 0;margin-top:45px;text-align:center;color:var(--muted);font-size:11px}
+    @media(max-width:700px){.nav{display:none}.hero{grid-template-columns:1fr;padding-top:35px}.stats{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}.chat-form,.goal-row{flex-direction:column}.btn{width:100%}.section-head{align-items:start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="wrap top">
+    <div class="brand"><div class="logo">X</div><div><strong>MINDSET X</strong><small>BUILD YOUR EMPIRE</small></div></div>
+    <nav class="nav"><a href="#mission">الفلسفة</a><a href="#tasks">المهام</a><a href="#goals">أهدافي</a><a href="#mentor">المدرب الذكي</a></nav>
+  </header>
+  <main class="wrap">
+    <div class="hero" id="mission">
+      <div><div class="eyebrow">DISCIPLINE OVER MOTIVATION</div><h1>لا تنتظر أن تصبح قوياً.<br><span>تدرّب حتى تصبح كذلك.</span></h1><p>مساحتك لبناء عقلية قوية، وتطوير الانضباط، وحماية تركيزك، وتحويل أهدافك إلى خطوات يومية قابلة للإنجاز.</p><a class="btn" href="#tasks" style="display:inline-block;text-decoration:none;margin-top:12px">ابدأ تحدي اليوم ←</a></div>
+      <div class="hero-card"><div class="symbol">♟</div><div class="eyebrow">قانون اليوم</div><blockquote>«انتصر على أعذارك، قبل أن تحاول الانتصار على العالم.»</blockquote><p>القوة ليست أن تكون متحمساً دائماً؛ القوة أن تلتزم بما اخترته حتى عندما يقل الحماس.</p></div>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="doneCount">0 / 5</b><span>مهام مكتملة اليوم</span></div>
+      <div class="stat"><b id="goalCount">0</b><span>أهدافك النشطة</span></div>
+      <div class="stat"><b id="streak">0</b><span>إنجازات محفوظة</span></div>
+    </div>
+    <section>
+      <div class="section-head"><h2>مبادئك الأربعة</h2><p>ابنِ الأساس قبل أن تطلب النتائج</p></div>
+      <div class="grid">
+        <div class="feature"><span class="ico">🧠</span><div><b>قوة العقل</b><small>فكّر بوضوح، وتعلّم باستمرار.</small></div></div>
+        <div class="feature"><span class="ico">🎯</span><div><b>وضوح الهدف</b><small>اعرف ما تريد، وحدّد خطوتك التالية.</small></div></div>
+        <div class="feature"><span class="ico">⚡</span><div><b>الانضباط</b><small>أنجز المهم حتى دون انتظار الحماس.</small></div></div>
+        <div class="feature"><span class="ico">👁️</span><div><b>التركيز</b><small>قلّل المشتتات وامنح المهمة وقتها.</small></div></div>
+      </div>
+    </section>
+    <section id="tasks" class="panel">
+      <div class="section-head"><h2>تحديات اليوم</h2><p>كل خطوة صغيرة تصنع فرقاً</p></div>
+      <div class="muted" id="progressText">أنجز أول مهمة لبدء التقدم.</div><div class="progress"><span id="progressBar"></span></div>
+      <div class="tasks" id="taskList"></div>
+      <p class="notice">تُحفظ حالة المهام على هذا الجهاز والمتصفح.</p>
+    </section>
+    <section id="goals" class="panel">
+      <div class="section-head"><h2>أهدافي</h2><p>حوّل النية إلى خطة واضحة</p></div>
+      <div class="goal-row"><input id="goalInput" class="field" maxlength="120" placeholder="مثال: تعلّم الإنجليزية 20 دقيقة يومياً"><button class="btn" id="addGoal">أضف هدفاً</button></div>
+      <ul class="goal-list" id="goalList"></ul>
+    </section>
+    <section id="mentor" class="panel">
+      <div class="section-head"><h2>غرفة الذكاء الاصطناعي</h2><p>مدربك الشخصي للتفكير والتخطيط</p></div>
+      <div class="chat"><div class="chat-log" id="chatLog"><div class="bubble bot">أهلاً بك في MINDSET X. اسألني عن الانضباط، التركيز، تنظيم الوقت أو كيفية الوصول إلى هدفك. سأساعدك بخطوات عملية.</div></div>
+        <form class="chat-form" id="chatForm"><input class="field" id="question" maxlength="4000" placeholder="اكتب سؤالك هنا..." autocomplete="off"><button class="btn" id="sendBtn">إرسال</button></form>
+        <div class="notice" id="chatNotice">يتطلب تفعيل المساعد إضافة مفتاح API في إعدادات استضافة الموقع. لا تضع المفتاح داخل ملفات المتصفح.</div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">MINDSET X © 2026 · ابنِ نفسك، خطوة بعد خطوة.</footer>
+<script>
+const defaultTasks = ["استيقظ ورتّب مكانك دون هاتف","اقرأ 10 صفحات من كتاب مفيد","مارس الرياضة لمدة 20 دقيقة","اعمل 30 دقيقة على هدفك الأساسي","اكتب ثلاثة أشياء تعلمتها اليوم"];
+const today = new Date().toISOString().slice(0,10);
+const taskKey = "mx-tasks-"+today, goalsKey="mx-goals";
+let completed = JSON.parse(localStorage.getItem(taskKey)||"[]");
+let goals = JSON.parse(localStorage.getItem(goalsKey)||"[]");
+const $ = id => document.getElementById(id);
+function renderTasks(){
+  $("taskList").innerHTML="";
+  defaultTasks.forEach((task,i)=>{
+    const row=document.createElement("div"); row.className="task"+(completed.includes(i)?" done":"");
+    const check=document.createElement("input"); check.type="checkbox"; check.checked=completed.includes(i); check.id="task-"+i;
+    check.addEventListener("change",()=>{completed=check.checked?[...completed,i]:completed.filter(x=>x!==i);localStorage.setItem(taskKey,JSON.stringify(completed));renderTasks();});
+    const label=document.createElement("label"); label.htmlFor=check.id; label.textContent=task;
+    row.append(check,label); $("taskList").append(row);
+  });
+  $("doneCount").textContent=`${completed.length} / 5`;
+  $("progressBar").style.width=(completed.length*20)+"%";
+  $("progressText").textContent=completed.length===5?"رائع! أكملت تحديات اليوم الخمسة. حافظ على هذا الإيقاع.":`أنجزت ${completed.length} من 5 مهام.`;
+  $("streak").textContent=completed.length;
+}
+function renderGoals(){
+  $("goalList").innerHTML="";
+  goals.forEach((goal,i)=>{
+    const li=document.createElement("li"), span=document.createElement("span"), del=document.createElement("button");
+    span.textContent=goal; del.className="delete";del.textContent="حذف";del.setAttribute("aria-label","حذف الهدف");
+    del.onclick=()=>{goals.splice(i,1);localStorage.setItem(goalsKey,JSON.stringify(goals));renderGoals();};
+    li.append(span,del);$("goalList").append(li);
+  });
+  $("goalCount").textContent=goals.length;
+}
+$("addGoal").onclick=()=>{const value=$("goalInput").value.trim();if(!value)return;if(goals.length>=20){alert("يمكنك إضافة 20 هدفاً كحد أقصى.");return;}goals.push(value);localStorage.setItem(goalsKey,JSON.stringify(goals));$("goalInput").value="";renderGoals();};
+$("goalInput").addEventListener("keydown",e=>{if(e.key==="Enter")$("addGoal").click();});
+function bubble(text,kind){const el=document.createElement("div");el.className="bubble "+kind;el.textContent=text;$("chatLog").append(el);$("chatLog").scrollTop=$("chatLog").scrollHeight;return el;}
+$("chatForm").addEventListener("submit",async e=>{
+  e.preventDefault();const message=$("question").value.trim();if(!message)return;
+  $("question").value="";bubble(message,"user");const waiting=bubble("أفكر في إجابة مناسبة...","bot");$("sendBtn").disabled=true;
+  try{
+    const response=await fetch("/api/chat",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message})});
+    const data=await response.json();waiting.textContent=data.answer||data.error||"حدث خطأ. حاول مجدداً.";
+  }catch{waiting.textContent="تعذر الاتصال بالخادم. تحقق من اتصال الموقع وإعدادات الخادم.";}
+  finally{$("sendBtn").disabled=false;$("chatLog").scrollTop=$("chatLog").scrollHeight;}
+});
+renderTasks();renderGoals();
+</script>
+</body></html>

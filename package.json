@@ -1,0 +1,9 @@
+{
+  "name": "mindset-x",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MINDSET X - Arabic personal growth and focus website",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
